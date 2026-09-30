@@ -1,0 +1,20 @@
+[
+  {
+    "sourceId": "a5563ac2-6191-4536-a650-210f5c87f834",
+    "type": "hero",
+    "translations": {
+      "es": {
+        "title": "Un nuevo smartphone con una cámara más nítida",
+        "description": "El smartphone incorpora una pantalla AMOLED de 6,7 pulgadas con una frecuencia de actualización de 120 Hz, que ofrece imágenes fluidas y colores vibrantes. Está impulsado por un procesador de ocho núcleos y 12 GB de RAM."
+      },
+      "de": {
+        "title": "Ein neues Smartphone mit einer schärferen Kamera",
+        "description": "Das Smartphone verfügt über ein 6,7-Zoll-AMOLED-Display mit 120 Hz Bildwiederholrate und liefert damit flüssige Bilder und kräftige Farben. Angetrieben wird es von einem Octa-Core-Prozessor und 12 GB RAM."
+      },
+      "ja": {
+        "title": "よりシャープなカメラを備えた新しいスマートフォン",
+        "description": "このスマートフォンは、120Hzのリフレッシュレートに対応した6.7インチAMOLEDディスプレイを搭載し、滑らかな映像と鮮やかな色彩を実現します。オクタコアプロセッサと12GBのRAMを搭載しています。"
+      }
+    }
+  }
+]

@@ -1,10 +1,12 @@
 import {defineArrayMember, defineField, defineType} from 'sanity'
+import {languageField} from './languageField'
 
 export const aboutUsType = defineType({
   name: 'aboutUs',
   title: 'About Us',
   type: 'document',
   fields: [
+    languageField(),
     defineField({
       name: 'storyDescription',
       title: 'Story Description',

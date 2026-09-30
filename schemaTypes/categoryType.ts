@@ -1,4 +1,5 @@
 import {defineField, defineType} from 'sanity'
+import {languageField} from './languageField'
 
 export const categoryType = defineType({
   name: 'category',
@@ -11,6 +12,7 @@ export const categoryType = defineType({
       type: 'string',
       validation: (rule) => rule.required(),
     }),
+    languageField(),
   ],
   preview: {
     select: {title: 'title'},

@@ -1,4 +1,5 @@
 import {defineArrayMember, defineField, defineType} from 'sanity'
+import {languageField} from './languageField'
 
 export const navigationType = defineType({
   name: 'navigation',
@@ -11,13 +12,7 @@ export const navigationType = defineType({
       type: 'string',
       validation: (rule) => rule.required(),
     }),
-    defineField({
-      name: 'language',
-      title: 'Language',
-      type: 'string',
-      options: {list: [{title: 'English', value: 'en'}]},
-      validation: (rule) => rule.required(),
-    }),
+    languageField(),
     defineField({
       name: 'items',
       title: 'Items',

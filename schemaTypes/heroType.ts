@@ -1,4 +1,5 @@
 import {defineField, defineType} from 'sanity'
+import {languageField} from './languageField'
 
 export const heroType = defineType({
   name: 'hero',
@@ -11,6 +12,7 @@ export const heroType = defineType({
       type: 'string',
       validation: (rule) => rule.required(),
     }),
+    languageField(),
     defineField({
       name: 'description',
       title: 'Description',

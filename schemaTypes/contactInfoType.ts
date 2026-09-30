@@ -1,10 +1,12 @@
 import {defineField, defineType} from 'sanity'
+import {languageField} from './languageField'
 
 export const contactInfoType = defineType({
   name: 'contactInfo',
   title: 'Contact Info',
   type: 'document',
   fields: [
+    languageField(),
     defineField({
       name: 'email',
       title: 'Email',
